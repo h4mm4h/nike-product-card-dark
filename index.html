@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product Card</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<!-- BEGIN ba-container  -->
+	<div class="ba-container">
+		<!-- BEGIN ba-nike  -->
+		<div class="ba-nike cf">
+
+
+			<header class="ba-header">
+				<div class="ba-logo">
+					<a href="#"><img src="img/logo.png" alt="logo"></a>
+				</div>
+			</header>
+			<main class="main">
+				<div class="ba-product-card cf">
+					<div class="ba-product-card__main">
+						<img class="ba-product-card-main__img" src="img/Nike-SB-Stefan-Janoski-Max.png" alt="Nike-run">
+						<div class="ba-product-card-main__dots">
+							<label class="ba-radio__dark-blue">
+								<input type="radio" name="color" value="dark-blue" checked>
+								<div class="ba-radio__dot ba-radio__dot--dark-blue"></div>
+							</label>
+							<label class="ba-radio__white">
+								<input type="radio" name="color" value="white">
+								<div class="ba-radio__dot ba-radio__dot--white"></div>
+							</label>
+							<label class="ba-radio__red">
+								<input type="radio" name="color" value="red">
+								<div class="ba-radio__dot ba-radio__dot--red"></div>
+							</label>
+							<label class="ba-radio__cyan">
+								<input type="radio" name="color" value="cyan">
+								<div class="ba-radio__dot ba-radio__dot--cyan"></div>
+							</label>
+						</div>
+					</div>
+
+					<div class="ba-product-info">
+						<h1 class="ba-product-info__title">NikeSB Stefan Janoski Max</h1>
+						<h3 class="ba-product-info__subtitle">Unisex Skateboarding Shoe</h3>
+						<div class="ba-product-info__rating">
+							<div class="ba-stars gold">&#9733;</div>
+							<div class="ba-stars gold">&#9733;</div>
+							<div class="ba-stars gold">&#9733;</div>
+							<div class="ba-stars">&#9733;</div>
+							<div class="ba-stars">&#9733;</div>
+						</div>
+						<div class="ba-product-purchase">
+							<form class="ba-product-info__add-to-cart" action="#" method="post">
+								<label class="ba-product-purchase__size">
+								<select class="ba-product-purchase__select-size">
+									<option hidden>Size</option>
+									<option>40</option>
+									<option>41</option>
+									<option>42</option>
+									<option>43</option>
+									<option>44</option>
+								</select>
+								</label>
+								<label class="ba-product-purchase__quantity">
+									<input type="number" class="ba-product-purchase__select-quantity" min="0" max="10" value="1">
+								</label>
+								<div class="ba-add-to-card">
+								<button class="ba-button ba-product-info__button " type="submit">Add to cart</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<!-- END ba-nike -->
+	</div>
+	<!-- END ba-container -->
+</body>
+</html>

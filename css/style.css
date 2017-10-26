@@ -1,0 +1,178 @@
+// @font-face {
+//     font-family: 'Museo300-Regular';
+//     src: url('../fonts/Museo300-Regular-webfont.woff2') format('woff2'),
+//          url('../fonts/Museo300-Regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+body{
+color: rgba(255,255,255,0.3);
+font: 100 11px/1.3 Raleway, sans-serif;
+background: url(../img/mainbg.jpg) no-repeat;
+background-size: cover;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 109px;
+	max-width: 726px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	background-color: transparent;
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.3);
+	outline: none;
+	border: 1px solid;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 60px 0 60px;
+
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color:  #4c525a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-nike {
+	border-radius: 10px;
+	background-color:  #111a28;
+	box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+}
+.ba-header {
+	padding-top: 24px;
+	padding-left: 21px;
+}
+
+
+.ba-stars {
+	display: inline-block;
+	font-size: 12px;
+}
+.gold {
+	color: #F7BF16;
+}
+.ba-product-card-main__dots input{
+	display: none;
+}
+.ba-product-card-main__dots .ba-radio__dot{
+ 	display: inline-block;
+ 	border-radius: 50%;
+ 	width: 9px;
+ 	height: 9px;
+ 	margin-right: 5.5px;
+ 	cursor: pointer;
+ }
+.ba-radio__dot--dark-blue{
+	background-color: #1f273f;
+}
+.ba-radio__dot--white{
+	background-color: #fff;
+}
+.ba-radio__dot--red{
+	background-color: #ed3333;
+	}
+.ba-radio__dot--cyan{
+	background-color: #29e3ea;
+}
+:checked + .ba-radio__dot{
+	border-width: 2px;
+	border-color:  #ccc;
+	border-style: solid;
+	width: 16px;
+	height: 16px;
+	vertical-align: bottom;
+}
+.ba-product-card__main {
+	float: left;
+	padding-top: 69px;
+	padding-left: 36px;
+}
+.ba-product-card-main__dots {
+	padding-top: 73px;
+	padding-bottom: 21px;
+	text-align: center;
+}
+
+.ba-product-info {
+	max-width: 250px;
+	float: right;
+	padding: 10px;
+}
+.ba-product-info__title {
+	font-size: 24px;
+	line-height: 1.08;
+}
+.ba-product-info__subtitle {
+	margin: 0;
+}
+.ba-product-purchase {
+	padding-top: 25px;
+}
+.ba-product-info__rating {
+	padding-top: 20px;
+}
+[class*="ba-product-purchase__select-"] {
+	background-color: transparent;
+	font-size: 13px;
+	width: 69px;
+	height: 32px;
+	padding-left: 11px;
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.3);
+	outline: none;
+
+}
+.ba-product-purchase__select-size {
+	background: url(../img/arrow.png) 80% 50% no-repeat;
+}
+.ba-product-purchase option {
+	background-color: #111a28;
+}
+.ba-add-to-card {
+	padding-top: 30px;
+}
